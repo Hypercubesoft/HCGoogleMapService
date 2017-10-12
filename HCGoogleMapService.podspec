@@ -17,6 +17,8 @@ s.source           = { :git => "https://github.com/Hypercubesoft/HCGoogleMapServ
 s.ios.deployment_target = "9.0"
 s.source_files = "HCGoogleMapService", "HCGoogleMapService/*"
 
+s.static_framework = true
+
 s.dependency 'GoogleMaps'
 s.dependency 'GooglePlaces'
 s.dependency 'HCKalmanFilter'

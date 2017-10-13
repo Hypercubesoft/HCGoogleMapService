@@ -19,10 +19,11 @@ s.source_files = "HCGoogleMapService", "HCGoogleMapService/*"
 
 s.static_framework = true
 
-s.dependency 'GoogleMaps'
-s.dependency 'GooglePlaces'
 s.dependency 'HCKalmanFilter'
 s.dependency 'HCFramework'
 s.dependency 'HCLocationManager'
+
+s.dependency 'GoogleMaps'
+s.dependency 'GooglePlaces'
 
 end
